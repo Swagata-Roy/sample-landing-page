@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.top-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('img/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 80px;
+}
+
+.content {
+    text-align: center;
+    color: black;
+}
+
+.character {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.top-header {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.top-text {
+    font-size: 1em;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    color: #666;
+}
+
+.contact-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #333;
+}
+
+
+
+.second-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    max-width: 1000px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.second-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.second-section p {
+    font-size: 1.2em;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+.card-content {
+    padding-right: 20px;
+    text-align: left;
+}
+
+.card-content h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.card-content p {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.learn-more {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.learn-more:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.card-image img {
+    max-width: 350px;
+    height: auto;
+}
