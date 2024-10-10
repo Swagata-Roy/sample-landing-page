@@ -246,3 +246,53 @@ font-weight: bold;
 .js-card {
     background-color: #fff6da;
 }
+
+
+.bottom-section{
+display: flex;
+justify-content: center;
+}
+
+ .bottom-content {
+    background-image: url('img/handshake.jpg');
+    color: white;
+    padding: 60px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    }
+
+.bottom-content h1{
+	font-size: 30px;
+}
+.submit {
+            display: flex;
+            gap: 10px;
+}
+input[type="text"] {
+            width: 400px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+}
+.submit-button {
+            padding: 10px 20px;
+            background-color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+}
+
+
+footer{
+	margin-top: 80px;
+	background-color: #F7F8F8;
+	display: flex;
+	justify-content: space-between;
+	padding: 40px;
+}
