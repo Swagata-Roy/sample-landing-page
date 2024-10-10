@@ -55,7 +55,6 @@
 }
 
 
-
 .second-section {
     text-align: center;
     padding: 50px;
@@ -87,7 +86,6 @@
 
 .card {
     background-color: #fff;
-    border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -130,4 +128,121 @@
 .card-image img {
     max-width: 350px;
     height: auto;
+}
+
+
+.third-section {
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.third-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.third-section p {
+    font-size: 1.2em;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+}
+
+.video-container {
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+
+.fourth-section {
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.fourth-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.fourth-section p {
+    font-size: 1.2em;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+.target-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.target-card {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: left;
+    flex: 1;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.target-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.target-card p {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.target-card a{
+color: black;
+font-weight: bold;
+}
+
+.target-card .learn-more {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.target-card .learn-more:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+.html-card {
+    background-color: #ffe6e6;
+}
+
+.css-card {
+    background-color: #e2f3fd;
+}
+
+.js-card {
+    background-color: #fff6da;
 }
